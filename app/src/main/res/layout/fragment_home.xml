@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#1A7097"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:layout_width="167dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/logotecnm" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ASIGNACIÓN DE EQUIPO DE CÓMPUTO"
+        android:textSize="50dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="167dp"
+        android:layout_height="130dp"
+        android:src="@drawable/logo"
+        android:layout_marginLeft="100dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/computerstore"/>
+</LinearLayout>
